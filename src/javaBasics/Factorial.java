@@ -2,9 +2,10 @@ package javaBasics;
 
 import java.util.Scanner;
 
-public class FactorialProgram {
-
-	public static void main(String[] args) {
+public class Factorial {
+	
+	public void Factorial()
+	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter some number");
 		int s= sc.nextInt();
@@ -16,5 +17,14 @@ public class FactorialProgram {
 		System.out.println("the factorial of given no  is "+ fact);
 		
 	}
-}
-	
+		
+	public static void main(String[] args) {
+		
+		Factorial fp = new Factorial();
+		
+		fp.Factorial();
+		
+	}
+	}
+
+
