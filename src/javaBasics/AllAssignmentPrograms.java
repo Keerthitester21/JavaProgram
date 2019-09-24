@@ -140,7 +140,25 @@ public void Factorial()
 		System.out.print(matrixT[1][2] + "\n");
 	}
 	}
-
+public void elementSearchArray() {	
+		Scanner sc= new Scanner(System.in);
+		System.out.println("the searched element at the given index is");
+		int s= sc.nextInt();
+		int arr[]= {10,20,3,40,50,60};
+		//for (int i = 0; i <arr.length;i++)
+		
+		
+			for (int i = 0; i >arr.length;i++) 
+			{
+				if(arr.length == 2) {
+					//flag = false;
+					break;
+		//System.out.println(arr[i]);
+				}
+			}
+		
+		
+	}
 		
 		
 public static void main(String[] args) {
@@ -153,6 +171,7 @@ public static void main(String[] args) {
     asp.ReverseString();
     asp.DuplicateString();
 	asp.TransposeMatrix();
+	asp.elementSearchArray();
 	}
 
 }
